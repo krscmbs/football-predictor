@@ -83,7 +83,7 @@ rank$country <- with(rank, if_else(country_full == "USA", "United States",
                            if_else(country_full == "Swaziland", "Eswatini",
                            if_else(country_full == "St. Vincent / Grenadines", "Saint Vincent and Grenadines",
                            if_else(country_full == "St. Lucia", "Saint Lucia",
-                           if_else(country_full == "São Tomé and Pr�ncipe", "Sao Tome and Principe",
+                           if_else(country_full == "São Tomé and Pr?ncipe", "Sao Tome and Principe",
                            if_else(country_full == "Timor-Leste", "East Timor",
                            if_else(country_full == "Guyana", "French Guiana", country_full)))))))))))))))))
 
